@@ -145,4 +145,7 @@
 
     <!-- Allow Install -->
     <string name="allow_install">Allow</string>
+    <!-- Install location -->
+    <string name="install_location">Installation location</string>
+
 </resources>

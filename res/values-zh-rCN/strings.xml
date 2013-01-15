@@ -81,4 +81,6 @@
 
     <!-- Allow Install -->
     <string name="allow_install">允许</string>
+    <!-- Install location -->
+    <string name="install_location">安装位置</string>
 </resources>
