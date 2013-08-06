@@ -348,6 +348,7 @@ public class PackageInstallerActivity extends Activity implements OnCancelListen
                         public void onClick(DialogInterface dialog, int which) {
                             Log.i(TAG, "Setting INSTALL_NON_MARKET_APPS to 1");
                             Settings.Global.putInt(getContentResolver(), Settings.Global.INSTALL_NON_MARKET_APPS, 1);
+                            initiateInstall();
                         }
                     })
                     .setOnCancelListener(this)
