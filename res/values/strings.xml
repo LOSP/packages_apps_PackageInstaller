@@ -142,4 +142,7 @@
 
     <!-- Body text for new tab when there are no new permissions [CHAR LIMIT=NONE] -->
     <string name="no_new_perms">This update requires no new permissions.</string>
+
+    <!-- Allow Install -->
+    <string name="allow_install">Allow</string>
 </resources>

@@ -341,10 +341,10 @@ public class PackageInstallerActivity extends Activity implements OnCancelListen
                             Log.i(TAG, "Finishing off activity so that user can navigate to settings manually");
                             finish();
                         }})
-                    .setPositiveButton(R.string.settings, new DialogInterface.OnClickListener() {
+                    .setPositiveButton(R.string.allow_install, new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {
-                            Log.i(TAG, "Launching settings");
-                            launchSettingsAppAndFinish();
+                            Log.i(TAG, "Setting INSTALL_NON_MARKET_APPS to 1");
+                            Settings.Global.putInt(getContentResolver(), Settings.Global.INSTALL_NON_MARKET_APPS, 1);
                         }
                     })
                     .setOnCancelListener(this)
