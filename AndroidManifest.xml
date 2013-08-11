@@ -52,6 +52,15 @@
                 android:configChanges="orientation|keyboardHidden|screenSize"
                 android:theme="@style/translucent">
         </activity>
+        <activity android:name=".GrantActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:excludeFromRecents="true"
+                  android:theme="@android:style/Theme.DeviceDefault.Dialog.NoActionBar">
+            <intent-filter>
+                <action android:name="android.content.pm.action.REQUEST_PERMISSION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <!--
         <receiver android:name=".RemoveReceiver">
             <intent-filter>

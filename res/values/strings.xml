@@ -147,5 +147,8 @@
     <string name="allow_install">Allow</string>
     <!-- Install location -->
     <string name="install_location">Installation location</string>
+    <string name="grant_confirm_question">Do you want to grant the following permissions?
+        It will get access to:</string>
+
 
 </resources>
