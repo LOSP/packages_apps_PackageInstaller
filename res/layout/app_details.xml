@@ -28,14 +28,16 @@ installation screens
     android:paddingEnd="16dip"
     android:paddingTop="24dip"
     >
+
     <ImageView android:id="@+id/app_icon"
         android:layout_width="32dip"
         android:layout_height="32dip"
         android:layout_marginStart="8dip"
-        android:background="@color/transparent"
+        android:background="@android:color/transparent"
         android:layout_alignParentStart="true"
         android:gravity="start"
         android:scaleType="centerCrop"/>
+
     <TextView android:id="@+id/app_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -51,17 +53,20 @@ installation screens
         android:paddingTop="3dip"
         android:paddingStart="16dip"
         android:ellipsize="end"/>
+
     <FrameLayout
         android:id="@+id/top_divider"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="4dip"
         android:layout_below="@id/app_name">
+
         <ProgressBar
             android:id="@+id/progress_bar"
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+
     </FrameLayout>
     
 </RelativeLayout>

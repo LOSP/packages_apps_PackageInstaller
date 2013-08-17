@@ -91,7 +91,6 @@
         layout="@layout/app_details" />
 
     <TextView
-<<<<<<< HEAD
         android:id="@+id/center_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -102,18 +101,6 @@
         android:paddingTop="16dip"
         android:text="@string/installing"
         android:textAppearance="?android:attr/textAppearanceMedium" />
-=======
-            android:id="@+id/center_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/app_snippet"
-            android:gravity="start"
-            android:text="@string/installing"
-            android:paddingTop="16dip"
-            android:paddingStart="32dip"
-            android:paddingEnd="32dip"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
->>>>>>> android-4.3_r2.1
 
     <!-- This explanation text is shown only after the progress bar below goes away. -->
 
@@ -131,24 +118,10 @@
             android:id="@+id/center_explanation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-<<<<<<< HEAD
             android:gravity="center_horizontal"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:visibility="gone" />
-=======
-            android:layout_above="@id/buttons_panel"
-            android:layout_below="@id/center_text"
-            android:paddingTop="8dip"
-            android:paddingStart="16dip"
-            android:paddingBottom="16dip">
-        <TextView
-                android:id="@+id/center_explanation"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_horizontal"
-                android:visibility="gone"
-                android:textAppearance="?android:attr/textAppearanceSmall"/>
->>>>>>> android-4.3_r2.1
+
     </ScrollView>
 </RelativeLayout>
 
